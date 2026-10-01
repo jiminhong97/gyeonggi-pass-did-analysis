@@ -1,0 +1,18 @@
+# Raw data
+data/*.csv
+data/*.dta
+!data/README.md
+
+# Generated Stata files
+*.dta
+sector_did_result*.csv
+
+# Stata temporary/log files
+*.log
+*.smcl
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
